@@ -1,0 +1,2 @@
+# Bipolar-Reference-Pair-Generator
+Description of Project: The goal of this project is to automatically compute the anode and cathode pairs from iEEG data for bipolar referencing. We computed the 3D Euclidean distance between all electrodes and used the channel names to separate the pairs into their distinct grids. The pairs can be generated in both the vertical and horizontal orientations. The output is two lists of paired anodes and cathodes which can be used as an input to MNE..set_bipolar_referencing.
